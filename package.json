@@ -1,0 +1,12 @@
+{
+  "name": "video-image-audio-download-automation",
+  "version": "1.0.0",
+  "description": "automation for video/audio/image download",
+  "main": "download.js",
+  "scripts": {},
+  "author": "Amit Mondal",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0"
+  }
+}
