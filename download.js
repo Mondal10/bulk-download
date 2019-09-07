@@ -17,7 +17,7 @@ async function downloadImage(urlObj) {
   for (let i = 0; i < urlObj.length; i++) {
     const url = urlObj[i].url;
 
-    // Make sure you have blank folder with name 'videos'
+    // Make sure you have blank folder with name(whatever you like) but here 'videos' 
     const path = Path.resolve(__dirname, 'videos', `${i + 1}_${urlObj[i].saveAs}.mp4`); // Change the extension as per requirement
     const writer = Fs.createWriteStream(path);
 
